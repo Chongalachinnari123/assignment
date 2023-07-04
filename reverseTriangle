@@ -1,0 +1,3 @@
+n = int(input("enter digit:"))
+for i in range(n):
+       print("* "*(n-i))

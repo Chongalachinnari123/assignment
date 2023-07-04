@@ -1,0 +1,8 @@
+a = int(input("enter digit:"))
+
+for i in range(a):
+    if(i == 0)or(i ==(a-1)):
+        print("* " * a)
+    else:
+        number_of_spaces = ("  " * (a-2))
+        print("* "+number_of_spaces + "* ")

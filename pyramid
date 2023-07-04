@@ -1,0 +1,14 @@
+n = int(input("enter digit:"))
+
+for row in range(1, n + 1):
+    left_spaces_count = n - row
+    left_spaces = " " * left_spaces_count
+    row_output = left_spaces + "* " * row # if condition is row = 1 leka row = n aina sarey leftspaces plus and row number of stars
+    
+    if(row == 1 or row == n):
+        print(row_output)
+    else:
+        hollow_spaces_count = row - 2 #otherwise it will include hallow spaces 
+        hollow_spaces = "  " * hollow_spaces_count
+        row_output = left_spaces + "* " + hollow_spaces + "* "
+        print(row_output)

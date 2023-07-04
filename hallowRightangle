@@ -1,0 +1,6 @@
+N = int(input("enter side:"))
+for line_number in range(1, N+1):
+    if line_number > 1 and line_number < N: # linenumber is greater than 1 and also linenumber is lessthan N it is print the stars
+      print("* " + "  " * (line_number-2) + "* ")
+    else:
+      print("* " * line_number) #otherwise it will print N times of stars

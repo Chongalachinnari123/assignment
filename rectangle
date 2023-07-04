@@ -1,0 +1,10 @@
+a = int(input("enter side:"))
+b = int(input("enter side:"))
+
+
+for i in range(a):
+    if (i == 0) or (i == (a - 1)): #only i = 0  leka i = a-1 only to print the stars b times
+        print("* " * b)
+    else:
+        number_of_spaces = ("  " * (b - 2)) # print the stars in b-2 times because we have to print the two stars remaining will be spaces
+        print("* " + number_of_spaces + "* ")
