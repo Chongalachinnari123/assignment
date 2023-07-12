@@ -1,4 +1,4 @@
 string = "anusha"
-lastoccurance = string.rindex("a")
+lastoccurance = string.rfind("a")
 
 print(lastoccurance)
