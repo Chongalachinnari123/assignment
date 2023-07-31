@@ -19,5 +19,5 @@ list = []
 for item in string:
     item.pop()
 print(item)
-#5
+
 
