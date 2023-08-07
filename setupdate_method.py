@@ -25,4 +25,5 @@ print(string_2)
 
 #5
 string_1 = {"a","b","c"}
-string_2 = 
+string_2 = string_1.update("d")
+print(string_2)
